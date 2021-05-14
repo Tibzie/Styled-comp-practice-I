@@ -2,14 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
     * {
-        /* color: green; */
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
-        color: #383838;
+        font-family: 'Montserrat', sans-serif;
+        color: #1c1f2e;
     }
 `
 
